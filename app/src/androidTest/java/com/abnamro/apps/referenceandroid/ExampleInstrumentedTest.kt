@@ -18,6 +18,5 @@ class ExampleInstrumentedTest {
 
     @Test
     fun useAppContext() {
-
     }
 }
