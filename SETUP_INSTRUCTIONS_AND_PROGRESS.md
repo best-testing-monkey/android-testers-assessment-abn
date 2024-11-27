@@ -32,5 +32,6 @@ I use a sandbox environment for my professional projects to minimize external in
 | Commit: added package junit | No junit tests without junit |
 | Its a hello world! | This _can't_ be all there is. |
 | Determined: no other app code | This is actually all there is. |
- 
+| Write test plan | May be a bit ambitious, but ti'll see how far i'll be able to get in 6 hours |
+
 
