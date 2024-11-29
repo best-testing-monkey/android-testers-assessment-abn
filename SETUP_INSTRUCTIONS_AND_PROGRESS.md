@@ -24,13 +24,13 @@ I use a sandbox environment for my professional projects to minimize external in
    ```sudo snap install android-studio --classic```
 
 # Work log
-
-|| Description / commit message)                             || Additional comments                                                       ||
-| Commit: package detekt RC6-3 unavailable. Changed to RC7-3 | I'm just guessing this new RC is compatible with RC6-3                      |
-| Commit: added package junit                                | No junit tests without junit                                                |
-| Its a hello world!                                         | This _can't_ be all there is.                                               |
-| Determined: no other app code                              | This is actually all there is.                                              |
-| Write test plan                                            | [test_plan.md](test_plan.md) may be a bit ambitious, but I'll see how far I'll be able to get in 6 hours |
-| Run existing Test code                                     | This is easier said than done                                               |
-| Fresh start                                                | I can't get the app to build on my environment, and I can't spend too much time on this if i'll keep within 10 hours. I'll be building the same application (layout and code) with a recent Gradle that i know to work.|
-| Test implementation                                        | Done and referred in [test_plan.md](test_plan.md)                           |
+| Description / commit message)                              | Additional comments                                                                                                                                                                                                     |
+|------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Commit: package detekt RC6-3 unavailable. Changed to RC7-3 | I'm just guessing this new RC is compatible with RC6-3                                                                                                                                                                  |
+| Commit: added package junit                                | No junit tests without junit                                                                                                                                                                                            |
+| Its a hello world!                                         | This _can't_ be all there is.                                                                                                                                                                                           |
+| Determined: no other app code                              | This is actually all there is.                                                                                                                                                                                          |
+| Write test plan                                            | [test_plan.md](test_plan.md) may be a bit ambitious, but I'll see how far I'll be able to get in 6 hours                                                                                                                |
+| Run existing Test code                                     | This is easier said than done                                                                                                                                                                                           |
+| Fresh start                                                | I can't get the app to build on my environment, and I can't spend too much time on this if i'll keep within 10 hours. I'll be building the same application (layout and code) with a recent Gradle that i know to work. |
+| Test implementation                                        | Done and referred in [test_plan.md](test_plan.md)                                                                                                                                                                       |
