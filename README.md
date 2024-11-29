@@ -1,3 +1,10 @@
+# ABN test testers assignment
+
+Please have a look at [SETUP_INSTRUCTIONS_AND_PROGRESS.md](SETUP_INSTRUCTIONS_AND_PROGRESS.md) regarding the setup progress and 
+or directly at the brief [test_plan.md](test_plan.md)
+
+I'm eager for any feedback on how to improve my response to this kind of assessment.  
+
 # Test assignment
 
 We are looking for Automation Engineers that have the mindset "only the sky is the limit" and "automation doesn't stop at testing, it's just a beginning!" ;)
