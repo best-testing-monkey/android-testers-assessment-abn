@@ -1,4 +1,4 @@
-package com.abnamro.apps.referenceandroid
+package com.abnamro.apps.referenceandroid.Utils
 import android.util.Log
 import android.view.View
 import android.widget.TextView

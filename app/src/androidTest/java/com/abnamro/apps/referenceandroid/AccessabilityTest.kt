@@ -2,7 +2,6 @@ package com.abnamro.apps.referenceandroid
 
 
 
-import android.content.Context
 import androidx.test.ext.junit.rules.ActivityScenarioRule
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
@@ -28,19 +27,26 @@ class AccessabilityTest {
     val activityRule = ActivityScenarioRule(MainActivity::class.java)
 
     private lateinit var uiDevice: UiDevice
-    private lateinit var context: Context
 
     @Before
     fun setup() {
-        context = InstrumentationRegistry.getInstrumentation().targetContext
         uiDevice = UiDevice.getInstance(InstrumentationRegistry.getInstrumentation())
     }
 
+    /*
+     * Note: In a real test, we might want to use Espresso Accessibility checks,
+     * but that doesn't seem to be compatible with some of the imports that i use
+     * in other tests.
+     *
+     * ## Test Case 11: Accessibility Checks
+     *  - Enable espresso accessibility checks
+     *  - Verify "Hello World" label is readable
+     *  - Confirm hamburger menu is accessible
+     *  - Check color contrast meets basic accessibility standards
+     */
     @Test
     fun testAccessibility() {
-        // Note: In a real test, we might want to use Espresso Accessibility checks,
-        // but that doesn't seem to be compatible with some of the imports that i use
-        // in other tests.
+
 
         // Verify Hello World label is accessible
         val helloWorldLabel = uiDevice.findObject(
