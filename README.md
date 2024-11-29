@@ -1,4 +1,4 @@
-# ABN test testers assignment
+# ABN testers assignment
 
 Please have a look at [SETUP_INSTRUCTIONS_AND_PROGRESS.md](SETUP_INSTRUCTIONS_AND_PROGRESS.md) regarding the used environment, _how_ I progressed 
 or directly at the brief [test_plan.md](test_plan.md) for what has actually been automated.
